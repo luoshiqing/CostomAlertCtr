@@ -12,6 +12,7 @@
 		D62D550E1DEE7794008748CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62D550C1DEE7794008748CB /* Main.storyboard */; };
 		D62D55101DEE7794008748CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62D550F1DEE7794008748CB /* Assets.xcassets */; };
 		D62D55131DEE7794008748CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62D55111DEE7794008748CB /* LaunchScreen.storyboard */; };
+		D62D551F1DEE86E2008748CB /* HanderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D551E1DEE86E2008748CB /* HanderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D62D550F1DEE7794008748CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D62D55121DEE7794008748CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D62D55141DEE7794008748CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62D551E1DEE86E2008748CB /* HanderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D62D55081DEE7794008748CB /* AppDelegate.swift */,
 				D62D550A1DEE7794008748CB /* ViewController.swift */,
+				D62D551E1DEE86E2008748CB /* HanderViewController.swift */,
 				D62D550C1DEE7794008748CB /* Main.storyboard */,
 				D62D550F1DEE7794008748CB /* Assets.xcassets */,
 				D62D55111DEE7794008748CB /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D62D550B1DEE7794008748CB /* ViewController.swift in Sources */,
+				D62D551F1DEE86E2008748CB /* HanderViewController.swift in Sources */,
 				D62D55091DEE7794008748CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
